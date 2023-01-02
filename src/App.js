@@ -1,7 +1,11 @@
+import LoginPage from './pages/Login'
+
+import './global.css'
+
 function App() {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className="app">
+      <LoginPage />
     </div>
   )
 }
